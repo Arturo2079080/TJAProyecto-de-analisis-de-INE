@@ -1,0 +1,6 @@
+@APIINE_HostAddress = http://localhost:5030
+
+GET {{APIINE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

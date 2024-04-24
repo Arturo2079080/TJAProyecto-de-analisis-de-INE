@@ -1,0 +1,1 @@
+C:\Users\usuario\Documents\arturo pruebas\EscanerINE\EscanerINE.csproj;x64
