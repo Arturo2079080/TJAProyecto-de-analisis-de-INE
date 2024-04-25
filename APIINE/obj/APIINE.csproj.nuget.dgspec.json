@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Documents\\arturo pruebas\\Proyecto INEs\\APIINE\\APIINE.csproj": {}
+    "C:\\Users\\usuario\\Documents\\arturo pruebas\\INE proyecto\\APIINE\\APIINE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Documents\\arturo pruebas\\Proyecto INEs\\APIINE\\APIINE.csproj": {
+    "C:\\Users\\usuario\\Documents\\arturo pruebas\\INE proyecto\\APIINE\\APIINE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Documents\\arturo pruebas\\Proyecto INEs\\APIINE\\APIINE.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Documents\\arturo pruebas\\INE proyecto\\APIINE\\APIINE.csproj",
         "projectName": "APIINE",
-        "projectPath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\Proyecto INEs\\APIINE\\APIINE.csproj",
+        "projectPath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\INE proyecto\\APIINE\\APIINE.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\Proyecto INEs\\APIINE\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\INE proyecto\\APIINE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

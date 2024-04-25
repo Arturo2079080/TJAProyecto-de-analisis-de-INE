@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqyaEQmlfAy3HzcjOhZNsWNOEzyVO28EhpMzqnphgbqtIis510jAmm/1hUuNiqQyUBNzU8WZ/eZdS1OE3P9ozw==",
+  "dgSpecHash": "bUlJQMRqe8vTztXlL24OQplOqtFpRJirrdk4a4ZU8MqVsSzawTicwcLvLQr18yvI5aZzYPV4r3j1GMiBCPTHHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\Proyecto INEs\\APIINE\\APIINE.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\INE proyecto\\APIINE\\APIINE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

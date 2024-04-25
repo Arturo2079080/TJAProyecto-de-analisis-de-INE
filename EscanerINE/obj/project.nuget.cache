@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjxbt7b0quyAhHpWgK2SEIlkhuROrZPlAYGCRt8Jx3ogAuYcN5Ootwfd+u5yW85TCKJ/r3RxVZezKR82mLeQwQ==",
+  "dgSpecHash": "z9U2m1FShy6l47pdY72DHJMVuyLausajDUdnErNtv0WHOkXV+tEf+TYk8wDFKsLho3DZ7Ie39V01D6fFNzPakA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\Proyecto INEs\\EscanerINE\\EscanerINE.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\arturo pruebas\\INE proyecto\\EscanerINE\\EscanerINE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

@@ -2,36 +2,47 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        
+
+        private List<ImageSource> _capturedPhotos;
 
         public MainPage()
         {
             InitializeComponent();
+            _capturedPhotos = new List<ImageSource>();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async Task CaptureMultiplePhotos(int count)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            for (int i = 0; i < count; i++)
+            {
+                var photo = await MediaPicker.CapturePhotoAsync();
+                if (photo != null)
+                {
+                    var memoryStream = await photo.OpenReadAsync();
+                    var imageSource = ImageSource.FromStream(() => memoryStream);
+                    _capturedPhotos.Add(imageSource);
+                }
+            }
         }
+
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            var foto = await MediaPicker.CapturePhotoAsync();
+            await CaptureMultiplePhotos(3);
 
-            if (foto != null)
+            // Mostrar las imágenes capturadas en la interfaz de usuario
+            if (_capturedPhotos.Count > 0)
             {
-                var memoriaStream = await foto.OpenReadAsync();
-                imgFoto.Source = ImageSource.FromStream(() => memoriaStream);
+                foreach (var photo in _capturedPhotos)
+                {
+                    // Aquí puedes agregar las fotos a una colección o mostrarlas en la pantalla
+                    var image = new Image { Source = photo };
+                    imgsFotos.Children.Add(image); // Reemplaza "YourStackLayout" con tu contenedor
+                }
             }
-
         }
 
+        
         private async void Button_Clicked_1(object sender, EventArgs e)
         {
             var foto = await MediaPicker.PickPhotoAsync();

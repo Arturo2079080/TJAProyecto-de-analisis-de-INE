@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIINE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81cbc721f89028eb06eee70453f264b49454ecb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIINE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIINE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

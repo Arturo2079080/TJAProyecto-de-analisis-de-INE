@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EscanerINE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b90401d9749b5a9e8bc192717eaa180c2a7a7560")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+81cbc721f89028eb06eee70453f264b49454ecb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EscanerINE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EscanerINE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
